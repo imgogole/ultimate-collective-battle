@@ -38,14 +38,25 @@ L'entiereté des compétences et des statistiques des personnages sont consultab
 Voici les runes que vous pouvez utiliser pour améliorer les capacités de gameplay des personnages :
 
 - Ingénieur informatique
-- Ingérieur génie civile
+- Ingénieur génie civile
 - Ingénieur bio-médicale
 
 ### Gameplay
 
 Chaque personnage peut se déplacer de gauche à droite, sauter et prendre les escaliers. Les interactions possibles peuvent se faire avec les escaliers pour les utiliser (20 secondes de délai de récupération).
-Chaque personnage possède des points de vie (PV actuels / PV max), des dégâts d'attaque, de la vitesse d'attaque, de la vitesse de déplacement, de la portée d'attaque et des états de champions non-communs (montrés côté client dans la barre d'UI).
+Chaque personnage possède des points de vie (PV actuels / PV max), des dégâts d'attaque, de la vitesse d'attaque, de la vitesse de déplacement, de la réduction de dégâts reçus, de la portée d'attaque et des états de champions non-communs (montrés côté client dans la barre d'UI).
 
 Chaque personnage possède aussi une taille proportionnel au PV max (égale à 0.004 * HitPointsMax + 0.6 mètres, cette valeur est comprise entre 1 et 1.2 mètre).
 
+Utiliser l'action d'attaque si au moins un ennemi se trouve à la portée d'attaque d'un personnage frappe tous les ennemis à portée.
+La valeur des dégâts infligés par défaut est égale au dégâts d'attaque du personnages joué, cette valeur est modifiée pour chaque ennemi touché selon leur réduction de dégâts reçus. Seul les dégâts critiques ne sont pas modifiés par la réduction de dégâts reçus.
 
+Voici l'ordre d'execution des algortihmes d'application des dégâts :
+
+- ANYWHERE. Effets non à l'impact (EFFECTS)
+- 1. Dégâts additives (ADDITIONAL DAMAGE)
+- 2. Dégâts multiplicatives (MULTIPLICATIVE DAMAGE)
+- 3. Réduction aux dégâts reçus (ARMOR)
+- 4. Dégâts critiques additives (ADDITIONAL TRUE DAMAGE)
+- 5. Dégâts critiques multiplicatives (MULTIPLICATIVE TRUE DAMAGE)
+- 6. Effets à l'impact (IMPACT EFFECTS)
