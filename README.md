@@ -41,7 +41,9 @@ Voici les runes que vous pouvez utiliser pour améliorer les capacités de gamep
 - Ingénieur génie civile
 - Ingénieur bio-médicale
 
-### Gameplay
+## Gameplay
+
+### Variables d'état
 
 Chaque personnage peut se déplacer de gauche à droite, sauter et prendre les escaliers. Les interactions possibles peuvent se faire avec les escaliers pour les utiliser (20 secondes de délai de récupération).
 Chaque personnage possède des points de vie (PV actuels / PV max), des dégâts d'attaque, de la vitesse d'attaque, de la vitesse de déplacement, de la réduction de dégâts reçus, de la portée d'attaque et des états de champions non-communs (montrés côté client dans la barre d'UI).
@@ -49,7 +51,7 @@ Chaque personnage possède des points de vie (PV actuels / PV max), des dégâts
 Chaque personnage possède aussi une taille proportionnel au PV max (égale à 0.004 * HitPointsMax + 0.6 mètres, cette valeur est comprise entre 1 et 1.2 mètre).
 
 Utiliser l'action d'attaque si au moins un ennemi se trouve à la portée d'attaque d'un personnage frappe tous les ennemis à portée.
-La valeur des dégâts infligés par défaut est égale au dégâts d'attaque du personnages joué, cette valeur est modifiée pour chaque ennemi touché selon leur réduction de dégâts reçus. Seul les dégâts critiques ne sont pas modifiés par la réduction de dégâts reçus.
+La valeur des dégâts infligés par défaut est égale aux dégâts d'attaque du personnage joué, cette valeur est modifiée pour chaque ennemi touché selon leur réduction de dégâts reçus. Seuls les dégâts critiques ne sont pas modifiés par la réduction de dégâts reçus.
 
 Voici l'ordre d'execution des algortihmes d'application des dégâts :
 
@@ -60,3 +62,12 @@ Voici l'ordre d'execution des algortihmes d'application des dégâts :
 - 4. Dégâts critiques additives (ADDITIONAL TRUE DAMAGE)
 - 5. Dégâts critiques multiplicatives (MULTIPLICATIVE TRUE DAMAGE)
 - 6. Effets à l'impact (IMPACT EFFECTS)
+
+### Contrôles
+
+Les compétences utilisés par les personnages peuvent altérer les contrôles d'un joueur. Ces contrôles permettent de créer une contrainte ou un avantage pour un ou des joueurs, ennemis ou alliés dans le jeu.
+Voici la liste des contrôles possibles :
+
+
+ 
+
