@@ -68,7 +68,9 @@ Voici l'ordre d'execution des algortihmes d'application des dégâts :
 Les compétences utilisés par les personnages peuvent altérer les contrôles d'un joueur. Ces contrôles permettent de créer une contrainte ou un avantage pour un ou des joueurs, ennemis ou alliés dans le jeu.
 Voici la liste des contrôles possibles :
 
-**Esquive** : Les joueurs en état d'esquive ne subissent pas de dégâts finaux après l'application des algorithmes des dégâts, ni les effets liés à cette attaque. Les joueurs qui ont attaqué les joueurs en état d'esquive consomment tout de même leurs effets sans les appliquer.
+- **Canalisation** : Certaines compétences mettent un joueur en état de canalisation. Cet état empêche un joueur d'attaquer, de se déplacer mais s'arrête après que la compétence se termine.
+- **Esquive** : Les joueurs en état d'esquive ne subissent pas de dégâts finaux après l'application des algorithmes des dégâts, ni les effets liés à cette attaque. Les joueurs qui ont attaqué les joueurs en état d'esquive consomment tout de même leurs effets sans les appliquer.
+- **Etourdis** : Les joueurs en état d'étourdissement ne peuvent pas attaquer, se déplacer ou utiliser des compétences. Quand un joueur devient étourdi, il arrête immédiatement toutes canalisations en cours et les compétences en cours sont arrêtées.
+- **Invisible** : Les joueurs invisibles ne peuvent pas être détectés par les joueurs ennemis, mais ils sont tout de même vulnérables aux attaques de base. Attaquer un ennemi met fin à l'invisibilité.
 
-**Etourdis** : Les joueurs en état d'étourdissement ne peuvent pas attaquer, se déplacer ou utiliser des compétences. Quand un joueur devient étourdi, il arrête immédiatement toutes canalisations en cours et les compétences en cours sont arrêtées.
 
