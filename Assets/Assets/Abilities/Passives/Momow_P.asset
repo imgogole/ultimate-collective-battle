@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8a263690467268478c9c9035dae952f, type: 3}
+  m_Name: Momow_P
+  m_EditorClassIdentifier: 
+  Name: Big delta
+  Description: "Mohamad tire sa puissance gr\xE2ce \xE0 son delta, quand il reste
+    immobile pendant 8 secondes, il s\u2019entraine et gonfle son delta pour le rendre
+    plus fort. Son delta augmente de <color=#4287f5>+1</color> tous les 2 secondes
+    d\u2019entrainement."
+  Cooldown: 0
+  UsableWhileCC: 0
+  Icon: {fileID: 21300000, guid: 1abba53b767501e4981d6cfb39a12fdd, type: 3}
+  video: {fileID: 32900000, guid: 651fec00f9262054387e807fa91fecd0, type: 3}

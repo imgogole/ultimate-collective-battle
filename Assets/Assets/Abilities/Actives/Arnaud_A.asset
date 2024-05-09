@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51dd78e9e7fb4f04fa8aa5af6d72ac11, type: 3}
+  m_Name: Arnaud_A
+  m_EditorClassIdentifier: 
+  Name: "Salto sa m\xE8re"
+  Description: "Apr\xE8s avoir effectu\xE9 un <b>saut</b>, Arnaud r\xE9alise un <b>salto</b>,
+    <color=#03a1fc>esquivant</color> tous les d\xE9g\xE2ts qu\u2019il subit pendant
+    0.55 seconde et gagnant bri\xE8vement <b>+15% de vitesse de d\xE9placement</b>.
+    A l\u2019atterrissage, il cr\xE9e un onde choc qui inflige <color=#fcba03>10
+    PV</color> aux ennemis proches. Les cr\xEApes d\u2019Arnaud sont <color=#a11fff>repouss\xE9s</color>
+    par l\u2019onde de choc."
+  Cooldown: 0.25
+  UsableWhileCC: 0
+  Icon: {fileID: 21300000, guid: 6af3122c3cb05124aa05492bed2285ce, type: 3}
+  video: {fileID: 32900000, guid: 5b77113b51c65f845818fd5939268f02, type: 3}

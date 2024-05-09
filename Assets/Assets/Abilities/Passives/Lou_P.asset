@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 986e14974d0f3364e94d5955d85f7d66, type: 3}
+  m_Name: Lou_P
+  m_EditorClassIdentifier: 
+  Name: Tema ma coupe gro
+  Description: "Lou peut laisser pousser ses <color=#eddd5f>cheveux</color>, lui
+    donnant du charisme et permet \xE0 ses attaques d\u2019infliger jusqu\u2019\xE0
+    <color=#fcba03>16% de d\xE9g\xE2ts suppl\xE9mentaires</color>. Il peut utiliser
+    une comp\xE9tence pour se couper les <color=#eddd5f>cheveux</color>, ce qui r\xE9pugne
+    et <color=#a11fff>\xE9tourdit</color> pendant 1 seconde \xE0 la prochaine attaque
+    de Lou."
+  Cooldown: 0
+  UsableWhileCC: 0
+  Icon: {fileID: 21300000, guid: a20fd470c32ca3c44997ad75c62a7d96, type: 3}
+  video: {fileID: 32900000, guid: ff4ed21a6d6a3e34c9f49c36933c1b91, type: 3}

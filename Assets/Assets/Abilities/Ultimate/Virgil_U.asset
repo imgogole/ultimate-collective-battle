@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14838decb1c5d9945835a19bc855859c, type: 3}
+  m_Name: Virgil_U
+  m_EditorClassIdentifier: 
+  Name: Devine qui a eu 20 ?
+  Description: "Virgil fait appel \xE0 <b>Mme Noirrel</b> pour le guider, il se transcende
+    et gagne <b>10% de vitesse de d\xE9placement</b> pendant 30 secondes. Ses attaques
+    infligent <color=#fcba03>25% de <color=#eddd5f>l'amiti\xE9</color> suppl\xE9mentaires</color>.
+    Mme Noirrel <color=#42f575>soigne</color> \xE9galement Virgil sur la dur\xE9e,
+    lui rendant 90% de l'<color=#fc0339>amour</color> en 15 secondes.\n\nLe d\xE9lai
+    de r\xE9cup\xE9ration de <b>M\xE9chant coup</b> est r\xE9duit de 10% par attaque
+    et par ennemi touch\xE9."
+  Cooldown: 65
+  UsableWhileCC: 0
+  Icon: {fileID: 21300000, guid: f2b9e34fa39e8c949bdd6ea386839de6, type: 3}
+  TitouanUltInformation: "Pour Virgil, l'amiti\xE9 est fix\xE9 \xE0 20."
+  video: {fileID: 32900000, guid: 0889b8b0b2769f3489123f3477dca253, type: 3}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ab499d2afdcb34a95cbd75ce967515, type: 3}
+  m_Name: Samuel_U
+  m_EditorClassIdentifier: 
+  Name: Lance un 2v2 stp
+  Description: "Samuel canalise cette comp\xE9tence aussi longtemps qu\u2019il le
+    souhaite. \r\n\r\nPendant la canalisation, il lance <b>Clash Royale</b>, ce qui
+    lui permet de r\xE9v\xE9ler la position de tous les ennemis. Un deck de 3 cartes
+    lui est propos\xE9, ce qui lui permet de lancer des troupes dans le hall de son
+    choix.\n\r\nChaque carte lanc\xE9e co\xFBte de l'<color=#b157de>\xE9lixir</color>,
+    et chaque troupe apparaissent depuis la droite pour aller vers la gauche. Les
+    ennemis que les troupes rencontrent sur leur passage subissent des effets :\n\n-
+    B\xE9b\xE9 dragon (4 d'<color=#b157de>\xE9lixir</color>) : cr\xE9er une boule
+    de feu qui infligent <color=#fcba03>12PV</color> aux ennemis proches.\n- PEKKA
+    (3 d'<color=#b157de>\xE9lixir</color>) : inflige <color=#fcba03>18% des PV max</color>.\n-
+    Ballon de squelettes (2 d'<color=#b157de>\xE9lixir</color>) : Explose au contact
+    du premier ennemi touch\xE9 et le hante d'une arm\xE9e de squelette qui l'<color=#a11fff>\xE9toudit</color>
+    pendant 2 secondes.\n\r\nSubir des d\xE9g\xE2ts prend fin \xE0 cette comp\xE9tence
+    et ne peut plus \xEAtre r\xE9activer pendant le reste du round. "
+  Cooldown: 95
+  UsableWhileCC: 0
+  Icon: {fileID: 21300000, guid: 56c050788e2b92c43a9444f1ffe91817, type: 3}
+  TitouanUltInformation: Titouan ne peut pas lancer de troupe dans les hall.
+  video: {fileID: 32900000, guid: 175357d584d53ab41b8560e784017499, type: 3}

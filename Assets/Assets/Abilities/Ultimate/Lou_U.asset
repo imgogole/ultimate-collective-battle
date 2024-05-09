@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c3bab94286199488cf79d8313fd565, type: 3}
+  m_Name: Lou_U
+  m_EditorClassIdentifier: 
+  Name: "Peut-\xEAtre un peu d\xE9g\xE9n\xE9r\xE9 ?"
+  Description: "Lou plonge la carte dans l\u2019obscurit\xE9, gagne <b>+60% de vitesse
+    de d\xE9placement</b> et devient <color=#a11fff>invisible</color> pendant un
+    maximum de 15 secondes. Sa prochaine attaque termine ces effets et inflige <color=#fcba03>45%
+    des PV manquants suppl\xE9mentaires</color>."
+  Cooldown: 75
+  UsableWhileCC: 0
+  Icon: {fileID: 21300000, guid: 2b61b2f85b297004aa9c55789269ef8b, type: 3}
+  video: {fileID: 32900000, guid: 0ffe267c2c69b8249a51de6b3ef37f5f, type: 3}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe401b784a106d4da1e5b6c5f2a1b91, type: 3}
+  m_Name: Dalil_U
+  m_EditorClassIdentifier: 
+  Name: "Hacking d'ing\xE9nieur"
+  Description: "Dalil canalise sa comp\xE9tence pour d\xE9buter un hack sur la map.
+    Tous les ennemis sont en \xE9tat de contr\xF4les, tant qu\u2019ils se d\xE9placent,
+    ils g\xE9n\xE8rent des failles internes. \r\n\r\nPendant la canalisation, les
+    ennemis qui ont g\xE9n\xE9r\xE9 trop de failles internes sont <color=#a11fff>\xE9tourdis</color>
+    pendant 2 secondes, subissent <color=#fcba03>20PV</color> et se voit implanter
+    un <color=yellow>virus</color> en eux. \r\n\r\nImplanter 3 <color=yellow>virus</color>
+    en un ennemi le rend vuln\xE9rable et l\u2019<color=red>ex\xE9cute</color> \xE0
+    la prochaine attaque d\u2019un alli\xE9. Les <color=yellow>virus</color> sont
+    d\xE9truits \xE0 la fin du round. "
+  Cooldown: 80
+  UsableWhileCC: 0
+  Icon: {fileID: 21300000, guid: c43f8985920a6e44e823436eed75fb63, type: 3}
+  video: {fileID: 32900000, guid: a766d3ab0b2d0db48b3fd219a89a8581, type: 3}

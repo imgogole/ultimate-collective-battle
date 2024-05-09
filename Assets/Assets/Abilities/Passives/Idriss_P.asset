@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa2925635cf982f48a538b26bf6ed5b6, type: 3}
+  m_Name: Idriss_P
+  m_EditorClassIdentifier: 
+  Name: Les stacks uniquement
+  Description: "Idriss gagne <color=#fcba03>+0.8 d\xE9g\xE2t d\u2019attaque</color>,
+    <color=#42f575>+4 PV Max</color> et <color=#f5dd42>+3% de r\xE9duction au d\xE9g\xE2ts</color> 
+    pour toute la partie \xE0 chaque fois qu\u2019il participe \xE0 l\u2019\xE9limination
+    d\u2019un ennemi. Ces valeurs doublent pendant son ultime, mais il perd tous
+    ses stacks s\u2019il meurt pendant son ultime. "
+  Cooldown: 0
+  UsableWhileCC: 0
+  Icon: {fileID: 21300000, guid: 97caaea40643f154fbf8417d22ce6f57, type: 3}
+  video: {fileID: 32900000, guid: 0a4825639fc73b349b981daaa3f8f0b3, type: 3}

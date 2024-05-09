@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d298ba16fe8dde4f9d3a8eea55b74e8, type: 3}
+  m_Name: Thomas_A
+  m_EditorClassIdentifier: 
+  Name: Le ping de Miramas
+  Description: "Thomas fait un rollback pour se t\xE9l\xE9porter \xE0 son dernier
+    <color=#eddd5f>pic de lag</color>, r\xE9cup\xE9rant les <color=#42f575>PV \xE0
+    ce moment l\xE0</color>.\n\n<color=#42f575>60% des PV perdus</color> entre le
+    <color=#eddd5f>pic de lag</color> et le moment o\xF9 cette comp\xE9tence est
+    activ\xE9e est converti en <color=#42f575>soin</color> pour son <color=#eddd5f>fr\xE8re
+    </color>s\u2019il est situ\xE9 \xE0 moins de 15 m\xE8tres de lui.\n\n<i><color=#dedede>Les
+    soins donn\xE9s \xE0 Thomas ne peuvent pas \xEAtre augment\xE9s par des runes.</color></i>"
+  Cooldown: 40
+  UsableWhileCC: 0
+  Icon: {fileID: 21300000, guid: 0e42c95a06617d949bb852eb5ea43acd, type: 3}
+  video: {fileID: 32900000, guid: 12ca1f19dd141d247aa67af46964a269, type: 3}

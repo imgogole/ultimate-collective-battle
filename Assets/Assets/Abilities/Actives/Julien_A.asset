@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c1f4cbbee6627e4e91fb7a760bbc95a, type: 3}
+  m_Name: Julien_A
+  m_EditorClassIdentifier: 
+  Name: Majoration
+  Description: "Julien veut montrer qu\u2019il peut majorer, pendant 5 secondes,
+    il enregistre la personne qui lui a inflig\xE9 le plus de d\xE9g\xE2ts pendant
+    ce laps de temps ainsi que les d\xE9g\xE2ts. A la fin des 5 secondes, il inflige
+    instantan\xE9ment <color=#ff1943>100% des d\xE9g\xE2ts enregistr\xE9s en d\xE9g\xE2ts
+    critiques + 4% des PV max en d\xE9g\xE2ts critiques</color> \xE0 la personne
+    qui lui a mis le plus de d\xE9g\xE2ts.\n\n<i>Si aucun ennemi n'attaque Julien
+    pendant ces 5 secondes, le d\xE9lai de r\xE9cup\xE9ration de Majoration est r\xE9duit
+    de 40%.</i>"
+  Cooldown: 35
+  UsableWhileCC: 0
+  Icon: {fileID: 21300000, guid: 38cef017f43e7614f978c2b9d1896fc8, type: 3}
+  video: {fileID: 32900000, guid: 71203be205f927f42be9d237fb15433c, type: 3}

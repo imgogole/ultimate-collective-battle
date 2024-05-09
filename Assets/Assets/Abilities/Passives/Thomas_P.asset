@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44aa9376bdc83d04bb5b844a9505656f, type: 3}
+  m_Name: Thomas_P
+  m_EditorClassIdentifier: 
+  Name: "Que pour mon fr\xE8re"
+  Description: "Thomas peut d\xE9signer pour toute la partie son <color=#eddd5f>fr\xE8re</color>.
+    Quand Thomas et son <color=#eddd5f>fr\xE8re</color> sont proches, ils infligent
+    <color=#fcba03>+50% de d\xE9g\xE2ts suppl\xE9mentaires</color>.\n\r\nToutes les
+    20 secondes, Thomas fait un <color=#eddd5f>pic de lag</color> \xE0 cause de sa
+    connexion, il enregistre alors \xE0 la position de son pic ses <color=#42f575>PV
+    actuels</color>. "
+  Cooldown: 20
+  UsableWhileCC: 0
+  Icon: {fileID: 21300000, guid: 720e6f228cac9984ea56e3cf7a11d595, type: 3}
+  video: {fileID: 32900000, guid: 323038935ed71274488b5c54264a4885, type: 3}

@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: 52ad671e-3135-4037-9c2d-fa3da918bff6
+    AppIdFusion: 
+    AppIdChat: 
+    AppIdVoice: 
+    AppVersion: 
+    UseNameServer: 1
+    FixedRegion: 
+    Server: 
+    Port: 0
+    ProxyServer: 
+    Protocol: 0
+    EnableProtocolFallback: 1
+    AuthMode: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  DevRegion: 
+  PunLogging: 0
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  StartInOfflineMode: 0
+  RpcList:
+  - ClickRpc
+  - DestroyRpc
+  - DestroySpaceship
+  - Fire
+  - RespawnSpaceship
+  - RPC_RequestAttack
+  - RPC_SetTeam
+  - RPC_SelectChampion
+  - RPC_LockChampion
+  - RPC_SwitchToChampionSelection
+  - RPC_SetAndSyncValue
+  - RPC_SetAndSyncFloatValue
+  - RPC_SetAndSyncIntValue
+  - RPC_SetAndSyncBoolValue
+  - RPC_AddAndSyncEffect
+  - RPC_CallSpellEffect
+  - RPC_Destroy
+  - RPC_RequestHeal
+  - RPC_SelectRune
+  - RPC_PickKey
+  - RPC_DropKey
+  - RPC_SetMoneyValue
+  - RPC_DestroyKey
+  - RPC_SetWinners
+  - RPC_SyncGameTime
+  - RPC_SetLocalEffect
+  - RPC_InitRound
+  - RPC_SendDestroyKey
+  - RPC_SendEndRound
+  - RPC_SetCooldown
+  - RPC_CleanseAllNegativeEffects
+  - RPC_PlaySound
+  - RPC_ChangeGameStateToEveryone
+  - RPC_SetLastItemUsed
+  - RPC_SetHall
+  - RPC_Init
+  - RPC_AskSendToClosedRoom
+  - RPC_SendToClosedRoom
+  - RPC_StartLouUltimate
+  - RPC_RemoveEffectWithTag
+  - RPC_SetDefaultAmbiant
+  - RPC_SetRotDirection
+  - RPC_DoSalto
+  - RPC_HitArm
+  - RPC_SetState
+  - RPC_CallYassineRays
+  - RPC_SetDirection
+  - RPC_DoMomoTrain
+  - RPC_HideSpecialEffects
+  - RPC_DestroyCrepe
+  - RPC_UseItem
+  - RPC_LinkEntitiesAsBrother
+  - RPC_DoDalilHack
+  - RPC_ShowLagPoint
+  - RPC_SetYassineActive
+  - RPC_SpawnPing
+  - RPC_PickKeyOwner
+  - RPC_PreventUltimeStolled
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1
+  DevRegionSetOnce: 0

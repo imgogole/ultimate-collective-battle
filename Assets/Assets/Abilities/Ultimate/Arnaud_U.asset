@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f44c4eadf59d3a478dff94e8121d729, type: 3}
+  m_Name: Arnaud_U
+  m_EditorClassIdentifier: 
+  Name: "Soir\xE9e cr\xEApes"
+  Description: "Arnaud envoie un cr\xEApe vers la direction de l\u2019ennemi le plus
+    proche, ou devant lui. La cr\xEApe inflige <color=#fcba03>3 PV</color> quand
+    elle est en mouvement et se d\xE9truit. Si elle touche aucun ennemi, elle s\u2019\xE9crase
+    par terre et <color=#a11fff>\xE9tourdit</color> bri\xE8vement le premier ennemi
+    qui le touche."
+  Cooldown: 8
+  UsableWhileCC: 0
+  Icon: {fileID: 21300000, guid: 1de5a01bf53f2164c9f94f432b2bf624, type: 3}
+  TitouanUltInformation: "Les cr\xEApes de Titouan et de Arnaud sont diff\xE9rentiables."
+  video: {fileID: 32900000, guid: 63589ae25a5cca14887724455db5722c, type: 3}

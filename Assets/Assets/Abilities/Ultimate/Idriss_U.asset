@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d72df9cc5c2a21d40a3b713434c5639f, type: 3}
+  m_Name: Idriss_U
+  m_EditorClassIdentifier: 
+  Name: Full int
+  Description: "Idriss passe en full int, il va tout droit et <color=#a11fff>devient
+    immunis\xE9 aux contr\xF4les</color> pendant 5 secondes. Idriss \xE9galement
+    <b>+30% de vitesse de d\xE9placement</b>, <color=#FFFDAF>+30% de vitesse d'attaque</color>,
+    <color=#f5dd42>+30% de r\xE9duction aux d\xE9g\xE2ts re\xE7us</color>."
+  Cooldown: 25
+  UsableWhileCC: 0
+  Icon: {fileID: 21300000, guid: 93eaef12e11e8884ea43f3066e203186, type: 3}
+  TitouanUltInformation: Titouan ne gagne aucun stack.
+  video: {fileID: 32900000, guid: 3ebcefa70427b854ca8e0116205fe2ca, type: 3}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468866c950b53a947830cbaf8f045a50, type: 3}
+  m_Name: Dummy_P
+  m_EditorClassIdentifier: 
+  Name: Envoutement
+  Description: "Lorsque Dummy passe sous la barre des <color=#59ff72>50% de ses PV
+    max</color>, il r\xE9cup\xE8re <color=#59ff72>50% de ses PV manquants</color>.
+    Ceci a un delai de r\xE9cup\xE9ration de 15 secondes."
+  Cooldown: 15

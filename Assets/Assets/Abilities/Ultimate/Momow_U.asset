@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61dc4629a157612498d7b9f45c66f1ae, type: 3}
+  m_Name: Momow_U
+  m_EditorClassIdentifier: 
+  Name: Coup du delta
+  Description: "Mohamad canalise son ultime pour envoyer un puissant rayon de son
+    delta sur les c\xF4t\xE9s, infligeant <color=#fcba03>10 + </color><color=#4287f5>30%
+    de son delta</color><color=#fcba03> PV</color>. La taille du rayon est de 5 +
+    <color=#4287f5>60% de son delta</color> en m\xE8tres pour chaque c\xF4t\xE9."
+  Cooldown: 180
+  UsableWhileCC: 0
+  Icon: {fileID: 21300000, guid: 601936d413c316f44a5dcb43c5a4a1df, type: 3}
+  TitouanUltInformation: Pour Titouan, la valeur du delta est nulle.
+  video: {fileID: 32900000, guid: 3032dd077ea28b743b0a26b29c95b302, type: 3}

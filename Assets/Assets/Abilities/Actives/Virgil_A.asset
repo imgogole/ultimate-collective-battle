@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f2385b77b2eaf74f927a049d8996055, type: 3}
+  m_Name: Virgil_A
+  m_EditorClassIdentifier: 
+  Name: "M\xE9chant coup"
+  Description: "La prochaine attaque de Virgil pendant 5 secondes est d\xE9vastatrice,
+    elle inflige <color=#ff1943>100% de la <color=#7d3b40>m\xE9chancet\xE9</color>
+    en d\xE9g\xE2ts critiques suppl\xE9mentaires</color>. Virgil motive ses alli\xE9s
+    proches en leur donnant <b>15% de vitesse de d\xE9placement</b> pendant 3 secondes
+    si au moins un ennemi a \xE9t\xE9 touch\xE9.\n\r\n<i><color=#dedede>Si cette
+    attaque touche Thomas, il subit 200% de d\xE9g\xE2ts suppl\xE9mentaires en d\xE9g\xE2ts
+    critiques et devient \xE9tourdit pendant 2 secondes.</color> "
+  Cooldown: 10
+  UsableWhileCC: 0
+  Icon: {fileID: 21300000, guid: 9cbb1b7b4809ac14d8b858964509fd06, type: 3}
+  video: {fileID: 32900000, guid: 574c7650f5d30a446be31e8d0b90ddb4, type: 3}

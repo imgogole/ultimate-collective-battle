@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf2869e206e72904b89f021a4819486f, type: 3}
+  m_Name: Lou_A
+  m_EditorClassIdentifier: 
+  Name: Slurp slurp
+  Description: "Lou gagne passivement un effet <b>Pr\xE9dateur</b> tous les 3 secondes
+    quand il est \xE0 moins de 5 m\xE8tres d\u2019un ennemi (max 4). \r\n\r\nLou
+    peut activer cette comp\xE9tence pour que sa prochaine attaque consomme tous
+    les effets <b>Pr\xE9dateurs</b> et inflige <color=#fcba03>5 PV suppl\xE9mentaires</color>
+    par effet."
+  Cooldown: 10
+  UsableWhileCC: 0
+  Icon: {fileID: 21300000, guid: 688daacf3f192804684ca6b6f3e24b9e, type: 3}
+  video: {fileID: 32900000, guid: 4a5d3f2f9004dab4a9ab1efb51c2363e, type: 3}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b275186f658fc2e49bebe9cd23975bc2, type: 3}
+  m_Name: Romain_A
+  m_EditorClassIdentifier: 
+  Name: Les gars j'ai une blague
+  Description: "Romain canalise une blague pendant 2 secondes aux joueurs proches:
+    \r\n\r\n - S\u2019il s\u2019agit d\u2019un alli\xE9, cet alli\xE9 trouve \xE7a
+    dr\xF4le et gagne <b>30% de vitesse</b> pendant 5 secondes.\r \n - S\u2019il
+    s\u2019agit d\u2019un ennemi, cet ennemi se pisse dessus, l\u2019<color=#a11fff>\xE9tourdissant</color>
+    pendant 1 seconde et lui inflige <color=#fcba03>20 PV</color>. \r\n\r\n<i>Si
+    Romain raconte la blague \xE0 Samuel, le bonus ou le malus est doubl\xE9.\nSi
+    Romain raconte la blague \xE0 Yassine, le malus est tripl\xE9.</i>"
+  Cooldown: 12
+  UsableWhileCC: 0
+  Icon: {fileID: 21300000, guid: b4765f7e65e355d40aa076499f5b97c8, type: 3}
+  video: {fileID: 32900000, guid: 55c00680ebf8eeb49afce432f597ccdf, type: 3}

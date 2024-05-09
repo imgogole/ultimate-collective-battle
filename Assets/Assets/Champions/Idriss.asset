@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 119be7a28d9db0c428e0f808ebe34db6, type: 3}
+  m_Name: Idriss
+  m_EditorClassIdentifier: 
+  Name: Idriss
+  ID: 4
+  HP: 100
+  AttackDamage: 11
+  MultipleJump: 0
+  AttackSpeed: 1
+  MovementSpeed: 5
+  JumpSpeed: 5
+  JumpCooldown: 0
+  ArmorPercent: 0
+  Range: 1.75
+  IsMelee: 1
+  PassiveAbility: {fileID: 11400000, guid: bb22295893b0ea14a8bc5653edc8ae83, type: 2}
+  ActiveAbility: {fileID: 11400000, guid: 219553b4a16e32b48bbfbcd03441843f, type: 2}
+  UltimateAbility: {fileID: 11400000, guid: 40ddbb55b68706c4c970b5875c7f61d5, type: 2}
+  Icon: {fileID: 21300000, guid: 6a07e988eb1fcfd4eb57de2d9959340d, type: 3}
+  RepresentativeColor: {r: 0.70980394, g: 0.78039217, b: 0.8117647, a: 1}
+  InverseIcon: 1

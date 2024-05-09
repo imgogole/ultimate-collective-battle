@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 045f745ba6281b74cb83de5a36e701d2, type: 3}
+  m_Name: Julien_U
+  m_EditorClassIdentifier: 
+  Name: "R\xE9sultat de majoration"
+  Description: "Julien <color=#42f575>r\xE9cup\xE8re instantan\xE9ment des PV</color>
+    \xE9quivalent \xE0 175% des d\xE9g\xE2ts inflig\xE9s par la derni\xE8re activation
+    de Majoration. \r\n\r\n<i>Cette comp\xE9tence ne soigne que si Majoration a \xE9t\xE9
+    active une fois et s\u2019il n\u2019a pas d\xE9j\xE0 \xE9t\xE9 utilis\xE9 pour
+    \xEAtre soign\xE9.</i>"
+  Cooldown: 75
+  UsableWhileCC: 0
+  Icon: {fileID: 21300000, guid: 0f83cc3528489e6458c834dd8683738e, type: 3}
+  TitouanUltInformation: "Pour Titouan, les soins sont fix\xE9s \xE0 175% des d\xE9g\xE2ts
+    d'attaque."
+  video: {fileID: 32900000, guid: a74099006fa986a4da58275fe792e449, type: 3}

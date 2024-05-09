@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68853f488338cae419ef5d33e11fb11e, type: 3}
+  m_Name: Samuel_P
+  m_EditorClassIdentifier: 
+  Name: "Potions d'\xE9lixir"
+  Description: "Samuel poss\xE8de une barre d\u2019<color=#b157de>\xE9lixir</color>
+    qui augmente progressivement au cours du round (Maximum 10). Participer \xE0
+    l\u2019\xE9limination d\u2019un ennemi augmente l\u2019<color=#b157de>\xE9lixir</color>
+    de Samuel de <color=#b157de>+1</color>.\n\nLes attaques de Samuel r\xE9duisent
+    les d\xE9lais de r\xE9cup\xE9ration de ses comp\xE9tences d'un \xE9quivalent
+    de <color=#b157de>20% de l'\xE9lixir</color> en pourcentage."
+  Cooldown: 0
+  UsableWhileCC: 0
+  Icon: {fileID: 21300000, guid: 3a3d5bf39129e2644a57ab8825b29a72, type: 3}

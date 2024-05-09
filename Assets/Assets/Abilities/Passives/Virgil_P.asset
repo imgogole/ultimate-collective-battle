@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8899d59541de4b49a059a130142b269, type: 3}
+  m_Name: Virgil_P
+  m_EditorClassIdentifier: 
+  Name: Attaque bebou
+  Description: "Les attaques de Virgil g\xE9n\xE8rent de l\u2019<color=#eddd5f>amiti\xE9</color>
+    sur les ennemies. Virgil gagne de l\u2019<color=#eddd5f>amiti\xE9</color> \xE9quivalent
+    \xE0 <color=#fcba03>5% des d\xE9g\xE2ts inflig\xE9s</color> + <color=#fcba03>3%</color>
+    par alli\xE9s pr\xE8s de lui. Cette valeur augmente \xE0 <color=#fcba03>10%</color>
+    si l\u2019alli\xE9 est Yassine. \r\n\r\nVirgil converti ensuite 60% de l\u2019<color=#eddd5f>amiti\xE9</color>
+    en <color=#fc0339>amour</color> et 35% de l\u2019<color=#eddd5f>amiti\xE9</color>
+    en <color=#7d3b40>m\xE9chancet\xE9</color>. "
+  Cooldown: 0
+  UsableWhileCC: 0
+  Icon: {fileID: 21300000, guid: d47d3a79350ea5944a1f819cb810f149, type: 3}
+  video: {fileID: 32900000, guid: 27218e3de4e99204b9801797ce52c075, type: 3}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f76c4b825ee3f547848430cfcf1ee0e, type: 3}
+  m_Name: Titouan_U
+  m_EditorClassIdentifier: 
+  Name: "Vol \xE0 l'arrach\xE9"
+  Description: "Titouan vole imm\xE9diatement l'ultime de sa <color=#eddd5f>cible</color>,
+    r\xE9initialise le temps de ciblage et lui augmente son d\xE9lai de r\xE9cup\xE9ration.
+    Tant que la <color=#eddd5f>cible</color> existe, Titouan peut <color=orange>r\xE9activer</color>
+    cette comp\xE9tence pour utiliser une copie de son ultime."
+  Cooldown: 60
+  UsableWhileCC: 0
+  Icon: {fileID: 21300000, guid: 37ecbd7d0e4a2b54bb43e471915124eb, type: 3}
+  TitouanUltInformation: NONE
+  video: {fileID: 0}

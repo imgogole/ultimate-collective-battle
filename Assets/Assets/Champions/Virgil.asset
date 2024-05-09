@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 119be7a28d9db0c428e0f808ebe34db6, type: 3}
+  m_Name: Virgil
+  m_EditorClassIdentifier: 
+  Name: Virgil
+  ID: 12
+  HP: 110
+  AttackDamage: 7
+  MultipleJump: 0
+  AttackSpeed: 1.15
+  MovementSpeed: 5
+  JumpSpeed: 5
+  JumpCooldown: 0
+  ArmorPercent: 0
+  Range: 1.75
+  IsMelee: 1
+  PassiveAbility: {fileID: 11400000, guid: b7c54c1a4e227914a9ce74e2e52ee909, type: 2}
+  ActiveAbility: {fileID: 11400000, guid: c2697513b22ba954aa5c709113cf0480, type: 2}
+  UltimateAbility: {fileID: 11400000, guid: c7eeac6af32849a4897b891efbea27bd, type: 2}
+  Icon: {fileID: 21300000, guid: 0583de90179e6ce4bbda0b1bb6d6f115, type: 3}
+  RepresentativeColor: {r: 0.85490197, g: 0.70980394, b: 0.6784314, a: 1}
+  InverseIcon: 1

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 119be7a28d9db0c428e0f808ebe34db6, type: 3}
+  m_Name: Dummy
+  m_EditorClassIdentifier: 
+  Name: Dummy
+  ID: 2
+  HP: 200
+  AttackDamage: 7
+  MultipleJump: 0
+  AttackSpeed: 1
+  MovementSpeed: 5
+  JumpSpeed: 5
+  JumpCooldown: 0
+  ArmorPercent: 0
+  Range: 1.75
+  IsMelee: 1
+  PassiveAbility: {fileID: 11400000, guid: 0594a5069d97ec049af1ca0ba6856c66, type: 2}
+  ActiveAbility: {fileID: 11400000, guid: 4dc32a4906214bc418c77a2dc1b06aab, type: 2}
+  UltimateAbility: {fileID: 11400000, guid: 1ea1f494f9c4bfc479bb11eda9e0658a, type: 2}
