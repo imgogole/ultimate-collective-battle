@@ -31,7 +31,7 @@ Voici les personnages que vous pouvez actuellement jouer :
 - Virgil
 - Yassine
 
-L'entiereté des compétences et des statistiques des personnages sont consultables dans les jeux dans la catégorie Information.
+L'entiereté des compétences et des statistiques des personnages sont consultables en jeu dans la catégorie Information.
 
 ### Runes
 
