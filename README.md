@@ -1,6 +1,6 @@
 # Ultimate Collective Battle
 
-Ultimate Collective Battle est un jeu vidéo réalisé par I'm Gogole en 2024 et sorti la même année. Le joueur incarne son propre personnage, élève de Polytech Marseille, et de s'affronter entre amis dans l'arène Polytech afin de gagner des scores !
+Ultimate Collective Battle est un jeu vidéo réalisé par I'm Gogole en 2024 et sorti la même année. Le joueur incarne son propre personnage, élève de Polytech Marseille, et s'affronter entre amis dans l'arène Polytech afin de gagner des scores !
 
 ## Gameplay et règles
 
